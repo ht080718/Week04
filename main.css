@@ -1,0 +1,38 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    
+}
+/* https://www.pexels.com/photo/flat-lay-photo-cup-of-coffee-1727123/ Photo taken by Rodolfo Quirós */
+.bg-main{
+    background-image: url("coffee.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    
+}
+
+.bg-content{
+  width: 250px;
+  padding-left: 10px;
+  border-color: rgba(255,255,255,0.2);
+  border-style: solid;
+  background-color: rgba(255,255,255,0.3);
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.bg-content p{
+  font-size: 11px;
+  width: 200px
+}
+
+.bg-content img{
+  float: left;
+}
